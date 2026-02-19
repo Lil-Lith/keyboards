@@ -1,0 +1,9 @@
+[submodule "marbastlib"]
+	path = marbastlib
+	url = https://github.com/ebastler/marbastlib
+[submodule "MX_V2"]
+	path = MX_V2
+	url = https://github.com/ai03-2725/MX_V2.git
+[submodule "Keebio-Parts.pretty"]
+	path = Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git

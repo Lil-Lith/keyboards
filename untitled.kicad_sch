@@ -1,0 +1,8024 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "05ded6cb-4afe-488f-8177-8142baf5bb86")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4448WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4448WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4448WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4448WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KS33_SW_HS_KS-2P02B01-02_39"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CH"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "KS33_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-gateron_lp:SW_KS33_HS_KS-2P02B01-02_HS_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KS33_SW_HS_KS-2P02B01-02_39_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "marbastlib-promicroish:Elite-C"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Elite-C"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-xp-promicroish:Elite-C_ACH"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Symbol for an Elite-C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Elite-C_0_0"
+				(pin bidirectional line
+					(at -12.7 13.97 0)
+					(length 2.54)
+					(name "D3-TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 11.43 0)
+					(length 2.54)
+					(name "D2-RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -3.81 0)
+					(length 2.54)
+					(name "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -6.35 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -13.97 0)
+					(length 2.54)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 8.89 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 3.81 180)
+					(length 2.54)
+					(name "F4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
+					(length 2.54)
+					(name "F5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "F6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -8.89 180)
+					(length 2.54)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -11.43 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Elite-C_1_0"
+				(pin bidirectional line
+					(at -5.08 -19.05 90)
+					(length 2.54)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -19.05 90)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -19.05 90)
+					(length 2.54)
+					(name "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -19.05 90)
+					(length 2.54)
+					(name "F1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -19.05 90)
+					(length 2.54)
+					(name "F0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 16.51 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 13.97 180)
+					(length 2.54)
+					(name "B0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 6.35 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Elite-C_1_1"
+				(rectangle
+					(start -10.16 19.05)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0364290e-3814-45c7-a10a-8d19e02a1dc0")
+	)
+	(junction
+		(at 165.1 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "043f8ef5-f815-40e7-8fd7-3b4ec030051f")
+	)
+	(junction
+		(at 195.58 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045293b2-eb19-4625-88cf-da0cdca69237")
+	)
+	(junction
+		(at 149.86 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e594bc6-c7eb-4040-b62f-5a7c5405c5f1")
+	)
+	(junction
+		(at 195.58 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f627415-cc8f-4990-9c65-2846bcb57b6a")
+	)
+	(junction
+		(at 184.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "167b7173-2c12-436f-874e-b7b9e508a67e")
+	)
+	(junction
+		(at 184.15 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "192a8e33-1021-4657-b220-608e10b4194b")
+	)
+	(junction
+		(at 58.42 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e797627-e775-493e-90b4-eac9bed97732")
+	)
+	(junction
+		(at 146.05 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20cf36f7-ab6c-4fc0-9cfd-08f3e0395495")
+	)
+	(junction
+		(at 172.72 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "251587f5-c71c-4318-b041-4bc14afb56bf")
+	)
+	(junction
+		(at 123.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ece07b9-2c2e-4756-bfc5-baba9b56c8b1")
+	)
+	(junction
+		(at 123.19 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34e45d32-6758-4156-98f8-648dd19b784c")
+	)
+	(junction
+		(at 123.19 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3572ffe1-a3aa-45f3-8cd7-945cd62213c8")
+	)
+	(junction
+		(at 115.57 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3837a623-b8c7-4f5a-9f51-bc324b77d36c")
+	)
+	(junction
+		(at 157.48 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c025167-e1c7-4308-930e-6b5acc41ccdd")
+	)
+	(junction
+		(at 165.1 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42fa79c0-af7d-429f-b944-f7d6b064a2a9")
+	)
+	(junction
+		(at 165.1 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce6796c-3987-4396-9221-58948a3b50fc")
+	)
+	(junction
+		(at 157.48 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "603a57d1-0e2a-4562-b3dd-182e5254ba37")
+	)
+	(junction
+		(at 146.05 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "671e9260-6339-4e89-a6e8-63db09e260ef")
+	)
+	(junction
+		(at 172.72 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70ca2efd-d781-41e0-b58b-919873717bf9")
+	)
+	(junction
+		(at 134.62 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c0ea9a-b35e-4b17-b770-3571e6dba64f")
+	)
+	(junction
+		(at 86.36 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e56934-86a2-4a11-aa7d-2aaff5426021")
+	)
+	(junction
+		(at 138.43 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834c5bcb-6714-4900-b289-684d5fc39f2b")
+	)
+	(junction
+		(at 127 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "879d03bf-e016-427f-9ccb-fb0beb6bda36")
+	)
+	(junction
+		(at 138.43 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89845a8b-f4df-42a5-bc91-be950a56401d")
+	)
+	(junction
+		(at 138.43 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96006844-0c04-4950-8c8e-08c5c47c5ae5")
+	)
+	(junction
+		(at 149.86 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c4e09b-b0ed-4e5e-9c88-355750c0adff")
+	)
+	(junction
+		(at 115.57 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afca85e2-ef12-4ba7-b2ab-fd4fcc3c3777")
+	)
+	(junction
+		(at 115.57 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18d9548-b7ca-4fde-aff5-3045a2bf9801")
+	)
+	(junction
+		(at 176.53 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9f6603d-6dfc-4312-b9cb-a9d04ab19f9c")
+	)
+	(junction
+		(at 134.62 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfc5b584-31c6-4359-8fe5-ad0a659b690a")
+	)
+	(junction
+		(at 134.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15dd1fd-0cc4-44ea-912c-83aaa41206f9")
+	)
+	(junction
+		(at 138.43 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d20e55bd-7564-4ed7-98f8-af0587554004")
+	)
+	(junction
+		(at 176.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d609b03c-ee4d-40a5-b17e-2d81e0a7cce3")
+	)
+	(junction
+		(at 127 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe7a062-697b-43d8-88a4-148c538d16aa")
+	)
+	(junction
+		(at 146.05 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0582171-50b1-4a10-8e69-56a198578cc4")
+	)
+	(junction
+		(at 115.57 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e08dcec8-e123-4f0b-8237-845f82a2aebe")
+	)
+	(junction
+		(at 176.53 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec10a483-fba8-4fb2-acad-9f67d28f53a5")
+	)
+	(junction
+		(at 123.19 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed630cb5-77b5-4247-8a74-d3a06c7c244e")
+	)
+	(junction
+		(at 127 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed752015-9cbf-401c-a0d9-bde106f465d2")
+	)
+	(junction
+		(at 127 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed86e9ee-b359-4543-ac48-19ec552a2766")
+	)
+	(junction
+		(at 146.05 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f709aa6c-6d5a-4c69-a5d3-3882e4b43dc4")
+	)
+	(no_connect
+		(at 58.42 44.45)
+		(uuid "0eef3beb-13ba-44c0-8cbf-b4e71d89afee")
+	)
+	(no_connect
+		(at 43.18 147.32)
+		(uuid "18b9c5ff-7aea-4137-b396-5162761152ef")
+	)
+	(no_connect
+		(at 43.18 149.86)
+		(uuid "2e3ddf4b-ef84-46e9-abcd-0796f5c31391")
+	)
+	(no_connect
+		(at 43.18 170.18)
+		(uuid "3ad7d49d-ddf1-4d08-b003-f98e76395031")
+	)
+	(no_connect
+		(at 43.18 172.72)
+		(uuid "5bd59fbb-fa21-4d87-854b-21da35260efb")
+	)
+	(no_connect
+		(at 58.42 59.69)
+		(uuid "67ffdc30-083b-4524-a920-521668ea13b3")
+	)
+	(no_connect
+		(at 58.42 57.15)
+		(uuid "6a8ab992-27ca-4bd6-b80e-b9cf36fcda9c")
+	)
+	(no_connect
+		(at 43.18 160.02)
+		(uuid "89a96bf5-c31e-4aad-bf65-c572b77b1420")
+	)
+	(no_connect
+		(at 58.42 67.31)
+		(uuid "a25b30c1-110f-4305-89a5-ed6de26664f1")
+	)
+	(no_connect
+		(at 43.18 162.56)
+		(uuid "a5d135dc-ef81-47f5-9fde-7dde8be08f58")
+	)
+	(no_connect
+		(at 58.42 46.99)
+		(uuid "a9f191f3-00f0-4dec-9610-dfa3fc3f1215")
+	)
+	(no_connect
+		(at 58.42 54.61)
+		(uuid "b5a83bd9-0e18-4b9a-8beb-78030e3b2bd5")
+	)
+	(no_connect
+		(at 58.42 49.53)
+		(uuid "c55c33de-3bc5-42bb-bbce-7d52d82446a9")
+	)
+	(no_connect
+		(at 58.42 69.85)
+		(uuid "cb580b9d-d953-447c-b5e7-8d2db6cfbea2")
+	)
+	(no_connect
+		(at 83.82 46.99)
+		(uuid "d208b0c9-566f-4d6e-8053-89d29dce5650")
+	)
+	(no_connect
+		(at 43.18 157.48)
+		(uuid "dc718028-e3a1-49d7-97d1-6934dff40415")
+	)
+	(no_connect
+		(at 58.42 41.91)
+		(uuid "e0502f6d-de3a-44e4-b857-cf4bb876dd98")
+	)
+	(no_connect
+		(at 58.42 62.23)
+		(uuid "e6f361a2-ae72-4235-906e-fbecc69d9f29")
+	)
+	(no_connect
+		(at 66.04 74.93)
+		(uuid "e81b23c2-7762-49f7-b135-d5f9a6f68094")
+	)
+	(no_connect
+		(at 83.82 41.91)
+		(uuid "ea5ba59c-a4c3-4689-a542-5472af71af36")
+	)
+	(no_connect
+		(at 58.42 64.77)
+		(uuid "f6b6c9c4-c730-449f-b6b6-c03b4611fa64")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 149.86 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01029fce-0bec-4042-b6e7-1cf4a31ae483")
+	)
+	(wire
+		(pts
+			(xy 195.58 125.73) (xy 195.58 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d39904-ea74-4f6a-9f7e-2f3a81b8cc27")
+	)
+	(wire
+		(pts
+			(xy 123.19 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd18ba0-1325-4e58-8a51-20a1ee9932ea")
+	)
+	(wire
+		(pts
+			(xy 115.57 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11707ce4-974e-4f6e-8033-c959025060be")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121a61bc-67bb-410f-96d5-62362eb01c42")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135fc549-0cd0-4021-bacf-6d6f7b03e14a")
+	)
+	(wire
+		(pts
+			(xy 181.61 125.73) (xy 184.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139f22a3-9233-47e7-af94-6e022105c8c8")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1609c79f-39bd-4df5-981f-0991817eb2f5")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1996a2aa-b14c-48e2-a932-686df1f2e50e")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 146.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f6f3c0-0c77-4554-87be-e31fafb46ae1")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 154.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5b0342-d3e9-4599-a6a2-71ef2a672071")
+	)
+	(wire
+		(pts
+			(xy 187.96 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df5eb73-6fbb-43e2-98b2-68c9213a620a")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 123.19 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e433c74-1c5c-41ac-a0a0-87076c9cab9c")
+	)
+	(wire
+		(pts
+			(xy 19.05 34.29) (xy 19.05 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28939e8c-a599-42f5-a66d-cadec847b613")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 165.1 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29171df4-d6b3-4073-8389-76560bb4b115")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 68.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294cacb1-bed3-47fc-98c9-66dacd8900bd")
+	)
+	(wire
+		(pts
+			(xy 101.6 128.27) (xy 101.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae84263-920a-4073-9ff8-256ae209dd7d")
+	)
+	(wire
+		(pts
+			(xy 104.14 113.03) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd8a921-69e6-42e4-ac89-c1af337dc55c")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 132.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddfda9a-a067-4aa9-af3e-cbd8cb3f07e9")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 143.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e310875-b587-45be-ade3-0b8a0c9832af")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 143.51 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f93248d-f833-4cdd-9e01-d026a6fd3bde")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a79ed8-0d61-4011-86ba-4cce72608a7f")
+	)
+	(wire
+		(pts
+			(xy 91.44 135.89) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e259f9-48a9-4381-8735-a8a1adce630a")
+	)
+	(wire
+		(pts
+			(xy 109.22 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332cc25b-713d-41a6-a4ae-a06c04b4a820")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 99.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360ec781-7b44-414f-ad46-79a683de45de")
+	)
+	(wire
+		(pts
+			(xy 73.66 80.01) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a45fdff-ad59-4bda-9810-12005b9d3de5")
+	)
+	(wire
+		(pts
+			(xy 134.62 80.01) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3baebe12-98f0-4cfd-8294-bd5b517fea1a")
+	)
+	(wire
+		(pts
+			(xy 96.52 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d73f669-ccb3-4564-8cf9-8f6b9bc3ecc7")
+	)
+	(wire
+		(pts
+			(xy 83.82 143.51) (xy 195.58 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f82dac0-221b-4ee9-ae3e-4fe07daa1ba0")
+	)
+	(wire
+		(pts
+			(xy 83.82 57.15) (xy 109.22 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4119b024-d69d-4725-b0bd-626e6c6606fc")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416b21a7-4102-4135-ba8e-56080d171472")
+	)
+	(wire
+		(pts
+			(xy 134.62 130.81) (xy 99.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4176719d-bd50-4627-9457-3535973e05f8")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458269bc-4249-424e-b69e-2eb2d2eebdcb")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497e4eae-ceaa-4e2e-bfb2-2fe226f32043")
+	)
+	(wire
+		(pts
+			(xy 58.42 139.7) (xy 66.04 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5c950c-9e3b-46a4-b3a5-404ef9e40c16")
+	)
+	(wire
+		(pts
+			(xy 24.13 31.75) (xy 24.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfe8b73-4827-4a03-950f-d861f61e4a83")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51108e9c-e07b-4638-8f8b-632caaf820bd")
+	)
+	(wire
+		(pts
+			(xy 172.72 125.73) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dcef8c-c42a-4ef8-8e42-d51fb28268b4")
+	)
+	(wire
+		(pts
+			(xy 170.18 125.73) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547764eb-7e90-4b98-8a56-4d3f4ac8bacf")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599be68f-e56d-4cdb-b661-b39ed24059b7")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 86.36 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c54484c-9c7f-4c7c-afd7-5e62584e008d")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbf0f44-c2c7-481c-be6a-21a1e6b17fea")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5808dc-fbf4-4eb7-9e17-dc3392a7ade1")
+	)
+	(wire
+		(pts
+			(xy 24.13 139.7) (xy 58.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637603c5-6fe1-46d6-8f41-6d96ce8bcd5b")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad33074-5118-4dbd-83a6-e27a4bbc0707")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9da371-d375-452c-ba46-613b11acf56d")
+	)
+	(wire
+		(pts
+			(xy 172.72 125.73) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db0fc45-7bde-43a5-85cd-0e6db39558e8")
+	)
+	(wire
+		(pts
+			(xy 21.59 52.07) (xy 21.59 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebc5e98-ca7d-4fb3-a284-b8b7fb076f12")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c5fb34-f4f3-4e47-8921-a4c8cc571f85")
+	)
+	(wire
+		(pts
+			(xy 88.9 80.01) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77495d18-caf4-430d-8d1c-d8b0f1c15c2f")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 115.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ec3732-d4a8-4b12-9367-1b4fd525c0b8")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4e3516-ce05-4dd6-af17-b6ffb5fbaa34")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 96.52 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817a278f-79a7-489e-8145-457483b1d38f")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e54e8f-71d7-4a0d-91d6-26a93771c89a")
+	)
+	(wire
+		(pts
+			(xy 123.19 128.27) (xy 101.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c4281e-372e-48ee-942b-d2295aa66faa")
+	)
+	(wire
+		(pts
+			(xy 86.36 49.53) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c51fad-e97c-46b2-a5fb-08912bf4b59d")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860a4b9c-55e0-429a-8816-06fc39a75097")
+	)
+	(wire
+		(pts
+			(xy 83.82 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87549235-ccac-4dde-9fd1-41cd42c56db4")
+	)
+	(wire
+		(pts
+			(xy 83.82 143.51) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fbbd7a-ba4c-4d55-a107-a357cb3a3ceb")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b342c9b-711d-48e7-a8e4-209800da7753")
+	)
+	(wire
+		(pts
+			(xy 83.82 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7160b3-4a78-411f-9614-7817c184507f")
+	)
+	(wire
+		(pts
+			(xy 91.44 135.89) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc6c52d-4e78-4c7e-9dfc-c419e1e91243")
+	)
+	(wire
+		(pts
+			(xy 83.82 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921df169-4635-4e95-888a-9cb6b55bddc4")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 184.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940b6406-2700-4662-a08f-0114d58ce977")
+	)
+	(wire
+		(pts
+			(xy 71.12 82.55) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942f89b7-fe16-4f30-bacb-25103d682fd3")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 134.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952ed42a-1783-42f4-bf4c-91c31cc1fc5f")
+	)
+	(wire
+		(pts
+			(xy 146.05 125.73) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ce25d7-2bdb-4e5a-9250-dea87353d6c2")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981ba82b-db68-4cd0-876a-58d8bcd4f9e4")
+	)
+	(wire
+		(pts
+			(xy 138.43 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3b0c78-e478-4d32-98d4-81c70bafb709")
+	)
+	(wire
+		(pts
+			(xy 88.9 31.75) (xy 24.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc78102-2f9e-4483-9e4b-34fdb527f6dc")
+	)
+	(wire
+		(pts
+			(xy 165.1 113.03) (xy 138.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbf6cec-10d7-4dbd-b929-0ad83b7f2d4a")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0219cf-c2d2-4054-ac2b-9802f2160c07")
+	)
+	(wire
+		(pts
+			(xy 19.05 34.29) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05b0f52-1f4e-4f51-b4bc-7951d164d6db")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cbba49-e11a-4225-b9de-a1bda58fa433")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 123.19 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a445d059-4f0b-4e0e-994c-1f6d8180e80c")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a0cb0a-4a4d-4ef5-9be7-72e6ac3a7d77")
+	)
+	(wire
+		(pts
+			(xy 195.58 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa435c19-5d92-4ffd-8102-6a808cab1445")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 165.1 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aad9cda3-0905-44fd-8dce-52a710441852")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 109.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab288409-f7df-471a-aa5b-79a1eba1c7e4")
+	)
+	(wire
+		(pts
+			(xy 172.72 110.49) (xy 170.18 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca813b8-fb94-4232-80ed-acf3f8dd2cfc")
+	)
+	(wire
+		(pts
+			(xy 123.19 95.25) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfab506-61ab-426b-804d-9748047da8d9")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af519e1d-6b92-4b40-8e82-120cf5b9e738")
+	)
+	(wire
+		(pts
+			(xy 106.68 59.69) (xy 83.82 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1886461-c10f-4b70-885e-b254a4553093")
+	)
+	(wire
+		(pts
+			(xy 104.14 62.23) (xy 83.82 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40943bd-3432-4963-b286-893345c2a81e")
+	)
+	(wire
+		(pts
+			(xy 83.82 39.37) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65e14ff-b90b-4962-ba6a-8d21cd6a7458")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66dd9a1-01ce-4f8e-aa45-183d700ef750")
+	)
+	(wire
+		(pts
+			(xy 195.58 125.73) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83178a3-8d8e-419e-a524-f9b354a5f50f")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2f52d8-3989-4576-81a9-054eaaac4f56")
+	)
+	(wire
+		(pts
+			(xy 146.05 64.77) (xy 143.51 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3048fe3-67d3-47b8-9693-dc795efc8151")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 104.14 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39a8126-dbde-4337-83c2-d6c227a0abeb")
+	)
+	(wire
+		(pts
+			(xy 115.57 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c868d499-114e-47a2-a3a1-844aa3b72f2e")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d30d10-5885-4bf9-81fe-31fb61788652")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 134.62 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c969664e-3854-451c-86ff-31534089cfc0")
+	)
+	(wire
+		(pts
+			(xy 96.52 69.85) (xy 96.52 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc0df223-1b16-4acb-9c35-3ceefb17eb2e")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce07d8f1-39ab-4997-9a2c-f073ca25a836")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07e6492-e11e-4b53-8546-1836f0d8a8ee")
+	)
+	(wire
+		(pts
+			(xy 172.72 80.01) (xy 170.18 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18cab20-772c-4524-b775-43d5f42c4fda")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1abf5b3-b336-45ec-b169-6144de47ae16")
+	)
+	(wire
+		(pts
+			(xy 134.62 110.49) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d31c4741-8605-4a3c-a835-27a87f6a84b4")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39417d3-730d-416d-b880-f07ad691f7cf")
+	)
+	(wire
+		(pts
+			(xy 83.82 64.77) (xy 101.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5909cf-316b-4076-8c60-3da9ff7e1d50")
+	)
+	(wire
+		(pts
+			(xy 21.59 165.1) (xy 43.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e158802a-a651-48bb-8575-810f9ce74e56")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b670ef-60eb-4a8f-9476-28b7d176e8fd")
+	)
+	(wire
+		(pts
+			(xy 86.36 140.97) (xy 86.36 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3116d1c-1807-472e-9bc6-2257ee2c73a4")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f0c7c3-d668-487f-961f-2faa7881fb19")
+	)
+	(wire
+		(pts
+			(xy 184.15 110.49) (xy 181.61 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89a26e2-d704-4566-8977-1a26661f1ba1")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9081521-cd69-4e35-a837-512cab39c2e8")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a73c0b-45a0-4f52-af13-cf0ae74c8604")
+	)
+	(wire
+		(pts
+			(xy 127 52.07) (xy 138.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea54bf9e-0520-44d2-9563-88cd4aa6f4b8")
+	)
+	(wire
+		(pts
+			(xy 19.05 177.8) (xy 43.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9bdd6f-ef55-4eff-9dc7-59e3fbbc1361")
+	)
+	(wire
+		(pts
+			(xy 176.53 67.31) (xy 187.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6543bb-fc27-4789-969f-203ce3b74d4d")
+	)
+	(wire
+		(pts
+			(xy 21.59 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8eaba9-d57f-4f3c-a1d2-c0d3d91d297e")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee2c5c1-5558-47f4-aaf5-3a66cef71997")
+	)
+	(wire
+		(pts
+			(xy 195.58 80.01) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efb96644-fd11-4011-a97f-a3ff9c2cc512")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 138.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc0bc7c-72b2-4ddc-8ad5-5ae41c098057")
+	)
+	(wire
+		(pts
+			(xy 157.48 110.49) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1750cb4-04d2-4765-b572-7b4f8abe0f3f")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f415b2f1-576d-479d-b198-e5a3b9351ee9")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47c2cd7-1378-4843-8403-6e840596dd9c")
+	)
+	(wire
+		(pts
+			(xy 187.96 113.03) (xy 176.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f515db04-6aa0-4ca0-8a11-c87c06793d3f")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5486b7f-c81a-4a19-8a86-727ce07ce9b9")
+	)
+	(wire
+		(pts
+			(xy 165.1 67.31) (xy 176.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5980054-b70b-44b0-ab37-c828d94054de")
+	)
+	(wire
+		(pts
+			(xy 143.51 125.73) (xy 146.05 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62fc0e3-898c-4e96-94bf-aa673570ea30")
+	)
+	(wire
+		(pts
+			(xy 115.57 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f63723fb-74ed-4c9c-b754-6497ae911d66")
+	)
+	(wire
+		(pts
+			(xy 138.43 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8698793-cfa1-4c84-a38d-fe42942aa099")
+	)
+	(wire
+		(pts
+			(xy 195.58 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f9be01-9ca9-4988-ac85-729f392d1f21")
+	)
+	(wire
+		(pts
+			(xy 184.15 125.73) (xy 184.15 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b241c7-bcd7-40d6-8658-f4c8b6b0931e")
+	)
+	(wire
+		(pts
+			(xy 120.65 125.73) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4f5e4b-7ad1-487a-bcf9-6c7dac48f92d")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.92 104.14) (xy 114.3 104.14) (xy 114.3 96.52) (xy 121.92 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 01e2c4fa-994f-4cc5-8fcd-4b1815a460f1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 144.78 73.66) (xy 137.16 73.66) (xy 137.16 66.04) (xy 144.78 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 0eb49204-d1f6-4ec4-b0f5-11b0a27d4eff)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.92 58.42) (xy 114.3 58.42) (xy 114.3 50.8) (xy 121.92 50.8)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 136d27e2-9aa9-476a-ae7d-9c5ee3624c0c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 182.88 73.66) (xy 175.26 73.66) (xy 175.26 66.04) (xy 182.88 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 15150322-1c00-4de6-bd61-0e67487af6ed)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 144.78 58.42) (xy 137.16 58.42) (xy 137.16 50.8) (xy 144.78 50.8)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 17f5db32-868f-4345-acb2-1f1627c95c5e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 144.78 88.9) (xy 137.16 88.9) (xy 137.16 81.28) (xy 144.78 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 39451bc5-667a-4716-a204-074f50a3b794)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 133.35 58.42) (xy 125.73 58.42) (xy 125.73 50.8) (xy 133.35 50.8)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 3a4f3ada-58ba-4a75-a50c-e52cb14886c5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.92 88.9) (xy 114.3 88.9) (xy 114.3 81.28) (xy 121.92 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 5148ccfc-39f1-4e75-ae95-42f7fe8f7882)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 133.35 104.14) (xy 125.73 104.14) (xy 125.73 96.52) (xy 133.35 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 62d16ee7-f637-4520-bade-1f1567ce6d9c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 156.21 104.14) (xy 148.59 104.14) (xy 148.59 96.52) (xy 156.21 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 7e071482-5ce3-4619-8d1c-dc5e2f3ba1c1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 133.35 73.66) (xy 125.73 73.66) (xy 125.73 66.04) (xy 133.35 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 86ae5bc7-d001-463c-acd3-32909473b443)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 144.78 104.14) (xy 137.16 104.14) (xy 137.16 96.52) (xy 144.78 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid 8ae57da3-f7ab-4c5f-9815-34f2ed40d9a6)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 182.88 119.38) (xy 175.26 119.38) (xy 175.26 111.76) (xy 182.88 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid a16d80ee-3644-49d7-b4ac-26c7f6b3db30)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 156.21 73.66) (xy 148.59 73.66) (xy 148.59 66.04) (xy 156.21 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid a5e0aae1-cb5d-4581-ae91-d62839272407)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 104.14) (xy 186.69 104.14) (xy 186.69 96.52) (xy 194.31 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid aa749cde-29ca-43b8-a7f3-7a317047e88a)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.92 73.66) (xy 114.3 73.66) (xy 114.3 66.04) (xy 121.92 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid ae5c8ae4-9b4b-4e21-9948-3e6504e4fbc8)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 156.21 58.42) (xy 148.59 58.42) (xy 148.59 50.8) (xy 156.21 50.8)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid c5576cdc-ad1b-44f6-b720-276274a284d5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 171.45 104.14) (xy 163.83 104.14) (xy 163.83 96.52) (xy 171.45 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid cbb465cf-b948-4098-8cac-217c8dadee3f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 133.35 88.9) (xy 125.73 88.9) (xy 125.73 81.28) (xy 133.35 81.28)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid ce7e0c66-19b3-4469-bbf2-3d0b1cdf4c21)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 171.45 119.38) (xy 163.83 119.38) (xy 163.83 111.76) (xy 171.45 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid d225582c-eb80-46b5-8752-2fbe0f9d1712)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 182.88 104.14) (xy 175.26 104.14) (xy 175.26 96.52) (xy 182.88 96.52)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid d3f8c39a-eba2-4a8f-a68c-a05d30bd97ca)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 73.66) (xy 186.69 73.66) (xy 186.69 66.04) (xy 194.31 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid da59876a-63dc-47f3-9eca-c02e7e165809)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 119.38) (xy 186.69 119.38) (xy 186.69 111.76) (xy 194.31 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid e4be43c6-4c9a-4b18-9a38-92ec91879186)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 144.78 119.38) (xy 137.16 119.38) (xy 137.16 111.76) (xy 144.78 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid eb51e564-8625-4247-a0fa-2edbfa1544fc)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 171.45 73.66) (xy 163.83 73.66) (xy 163.83 66.04) (xy 171.45 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid f3248b4f-d2b6-4cd6-8f2c-4b1943f3ae7c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 121.92 119.38) (xy 114.3 119.38) (xy 114.3 111.76) (xy 121.92 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dot)
+			)
+			(fill
+				(type color)
+				(color 255 0 0 0.1)
+			)
+			(uuid fc550c76-f80e-4506-b63d-5b241663d2e9)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 190.5 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06d53a7d-d55f-494c-93b9-ac3c4de42b54")
+		(property "Reference" "CHfn18"
+			(at 189.23 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8dd1c7b-c7ea-448e-a554-188e5b47af9d")
+		)
+		(pin "2"
+			(uuid "c689220e-262b-41c6-9a3b-332de07c505a")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 129.54 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "088f4b60-9dc1-4731-8135-d5af74cc48e2")
+		(property "Reference" "CHnm5"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 129.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51443dee-7d40-48f3-898f-d1a607bd6362")
+		)
+		(pin "2"
+			(uuid "3e500e7c-076b-414c-b4ba-e886c6f2c4b0")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 140.97 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ed22ffe-7ded-4272-9ce9-844bb2accc41")
+		(property "Reference" "CHnm3"
+			(at 139.7 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 140.97 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dab1c58-f13e-4688-831c-26e05e6a0961")
+		)
+		(pin "2"
+			(uuid "c288e59f-58a6-489c-9228-7a1925847347")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 140.97 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10e2bcda-e4bc-4408-8a31-c0da33f9f409")
+		(property "Reference" "CHnmDot1"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "961addfe-af7f-408e-9513-24a6ec41ee73")
+		)
+		(pin "2"
+			(uuid "8721ef1b-8c85-4b40-98e6-3d2b56327280")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmDot1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 132.08 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19562ed2-3634-4c42-b663-07f0a81eb301")
+		(property "Reference" "D90"
+			(at 134.62 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 134.62 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 136.525 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "224ed399-8ebe-4793-a224-f2585b849df6")
+		)
+		(pin "1"
+			(uuid "1a19c3a0-822c-42bc-9a7a-2fb029e880db")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 132.08 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bc3d70c-293f-4c8d-9083-ad32cfe59c5a")
+		(property "Reference" "D100"
+			(at 134.62 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 134.62 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 136.525 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aee620c4-2390-474b-9c27-4829163c0537")
+		)
+		(pin "1"
+			(uuid "53cdb902-9171-4075-90b7-6137202f067c")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 120.65 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "256a17bd-c7cf-4813-9a81-e0d021ac6d22")
+		(property "Reference" "D85"
+			(at 123.19 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 123.19 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 125.095 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "684a5287-1b9a-42ce-a1e5-4fc3e3288147")
+		)
+		(pin "1"
+			(uuid "a75486f6-c974-4d72-86b0-57ef64331665")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 118.11 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ac6ac55-dfa9-4f9e-baeb-76699ac85cbc")
+		(property "Reference" "CHnm1"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd154300-a0a3-4489-b455-1cd27b05e65f")
+		)
+		(pin "2"
+			(uuid "f26b5425-afeb-4639-9a59-a8954e41ba21")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 167.64 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45093017-a19a-47e1-a173-3b9de1beb6b7")
+		(property "Reference" "CHfn16"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 167.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 167.64 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29fa0ce9-2284-46c4-b4be-1a5327837ca9")
+		)
+		(pin "2"
+			(uuid "43e075d4-cfca-44f4-b542-dd17f3ea0c12")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 154.94 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c97a9a-248c-48a6-9448-88dc23d85b6d")
+		(property "Reference" "D96"
+			(at 157.48 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 157.48 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 159.385 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9945f6e-c0fc-4abf-b76a-70b8562d8d08")
+		)
+		(pin "1"
+			(uuid "4bd27025-7156-4b2c-927f-38259e026ef9")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 120.65 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ab3a91e-9cdd-4713-9c27-96919777cb30")
+		(property "Reference" "D97"
+			(at 123.19 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 123.19 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 125.095 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6945a84b-129f-42d6-a865-0e5a47342f4d")
+		)
+		(pin "1"
+			(uuid "47b96dfa-da40-478f-b99f-2bf5f2642643")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 143.51 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d67b9fc-c52c-4e91-8b10-fa0aac2a6441")
+		(property "Reference" "D95"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 146.05 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 147.955 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae8dcee5-2a4a-4541-9767-b0424f121bf8")
+		)
+		(pin "1"
+			(uuid "7c0a185f-4ff6-4d60-a76b-148cd44b1345")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 154.94 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "502536b4-4f57-4530-b95a-72fb8caa4a52")
+		(property "Reference" "D88"
+			(at 157.48 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 157.48 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 159.385 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3045f215-b678-4513-b70a-97896729a1a1")
+		)
+		(pin "1"
+			(uuid "e13b3861-6c10-4503-95f7-30acea8f3a27")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 140.97 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50536d14-4c30-450f-b62f-90644e30cdb5")
+		(property "Reference" "CHnmMult1"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 140.97 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049cd992-4194-4822-a16d-a926d8af7303")
+		)
+		(pin "2"
+			(uuid "619ffe77-0a9d-4f4d-86c6-ff28f7c7e39e")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmMult1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 193.04 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5290eb1c-aaec-4770-889e-74750cf68e1e")
+		(property "Reference" "D104"
+			(at 195.58 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 195.58 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 197.485 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16b52388-06e6-45c7-8fef-6daae1ffeec2")
+		)
+		(pin "1"
+			(uuid "0135fffa-ccca-4fcd-a6d0-90938ee7740d")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 140.97 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52a6e525-e60d-4321-8b3e-7411cbf75abb")
+		(property "Reference" "CHnm6"
+			(at 139.7 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "169a9788-bd8f-4f96-a77b-069dfe2dba7a")
+		)
+		(pin "2"
+			(uuid "39f4b1e1-9dec-4a3e-a021-fd929d1281c7")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 167.64 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53473309-a13e-42ee-a8cf-dfbb431229a2")
+		(property "Reference" "CHfn13"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9c0d59-61a4-4af1-ad81-5f8545969a15")
+		)
+		(pin "2"
+			(uuid "1992bfba-0536-44f4-852d-1dbb319368ef")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 118.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54477705-dd67-4257-b6dd-68473d80e35d")
+		(property "Reference" "CHnmNum1"
+			(at 116.84 57.15 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c6ae23-bc53-47c1-8ef6-d2f145f94768")
+		)
+		(pin "2"
+			(uuid "eba369a0-1e70-4e10-8843-801e2ff7b03c")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmNum1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 118.11 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5746b344-a493-4053-8aad-abfd6f8b0e3a")
+		(property "Reference" "CHnm7"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a80776-f043-49aa-bb0e-e690f11590bb")
+		)
+		(pin "2"
+			(uuid "79df8366-e1db-4b7e-b116-6177a1d08207")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 181.61 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59ef5f02-ca67-4cf6-bec3-e0b154c3e3b8")
+		(property "Reference" "D108"
+			(at 184.15 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 184.15 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 186.055 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dae3cbdf-18c5-44fb-9849-ca6a1f091a51")
+		)
+		(pin "1"
+			(uuid "c02b927a-be23-4d24-b6f1-39260ba7a49f")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 120.65 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b65f85e-8246-4727-ae1e-4789ec6e1542")
+		(property "Reference" "D98"
+			(at 123.19 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 123.19 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 125.095 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85de6be2-635e-4c6c-8d41-9309cfd6da1a")
+		)
+		(pin "1"
+			(uuid "507d11eb-3440-49c6-b825-423b05ab89aa")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 181.61 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cac1a6a-dc12-4c65-b86d-3a4fcb11450b")
+		(property "Reference" "D107"
+			(at 184.15 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 184.15 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 186.055 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ed73a11-34b9-4323-adf7-ff51f26d08a5")
+		)
+		(pin "1"
+			(uuid "a46f517e-83d6-4234-88fe-6ee998e9e110")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 152.4 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "607ae969-a248-48dc-b31e-2cf630c96e17")
+		(property "Reference" "CHnmPlus1"
+			(at 151.13 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d023615d-7f24-4772-a500-20f03731f70e")
+		)
+		(pin "2"
+			(uuid "0522b34b-a240-4409-a88e-5774696eaa2b")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmPlus1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 181.61 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d33893-1741-4715-99fd-ca42f40850b8")
+		(property "Reference" "D103"
+			(at 184.15 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 184.15 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 186.055 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f61efa02-5b4e-474c-b4d1-075a9ac5fa13")
+		)
+		(pin "1"
+			(uuid "db2b03da-ed50-4f0f-b852-16cec3ff17f3")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 140.97 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62785c2f-957f-40f9-972b-53e832bdc192")
+		(property "Reference" "CHnm9"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 140.97 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99289e85-3207-4d2e-84d8-86caf09c1167")
+		)
+		(pin "2"
+			(uuid "0c480c6f-a501-437f-b31d-15b8d2e95e5a")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 120.65 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65fa79f6-a8e0-429d-b3ee-b452b69e1060")
+		(property "Reference" "D89"
+			(at 123.19 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 123.19 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 125.095 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a07883c6-3919-48d7-a213-0dd65d377467")
+		)
+		(pin "1"
+			(uuid "4ed4ba26-98ef-4b8d-a03a-317d2a24c127")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 129.54 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6945e114-4105-4932-865f-8326cef8f3be")
+		(property "Reference" "CHnmDivide1"
+			(at 128.27 57.15 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cbd4f7f-7513-4d5b-9ff0-bd3725b4263e")
+		)
+		(pin "2"
+			(uuid "2d49bb6e-c6b7-48c2-8776-ae725147c362")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmDivide1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 193.04 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6a9533-9f65-4148-8e35-4537b690a0fe")
+		(property "Reference" "D110"
+			(at 195.58 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 195.58 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 197.485 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "537c623d-c0b3-4dc6-8efc-7341b0ae6102")
+		)
+		(pin "1"
+			(uuid "b1b1b15e-510e-48f9-a11e-b0672042003b")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 132.08 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74c17f99-1373-4fb1-9d57-ba3b7dfa68d0")
+		(property "Reference" "D94"
+			(at 134.62 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 134.62 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 136.525 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb04c7b9-6433-45b7-ac8c-d1d123ba2a26")
+		)
+		(pin "1"
+			(uuid "cdf369e9-6414-41cc-93dd-e89ee8f32489")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 58.42 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760ee129-95d2-4eb2-89e4-baa69d998643")
+		(property "Reference" "J1"
+			(at 69.85 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 58.42 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B8"
+			(uuid "8369295b-01dd-40e1-8f80-a322c997a334")
+		)
+		(pin "A7"
+			(uuid "18ec55d1-1729-4944-bd05-2e9374939816")
+		)
+		(pin "B5"
+			(uuid "f1c6042a-be14-4930-9ffb-bee85569048d")
+		)
+		(pin "A1"
+			(uuid "4fa82a2f-c7bf-420c-bb09-e9779c73ac27")
+		)
+		(pin "S1"
+			(uuid "04172859-d75e-4e54-9bb2-070482002e1e")
+		)
+		(pin "B9"
+			(uuid "3a058884-212c-492b-84f3-c42280689051")
+		)
+		(pin "B12"
+			(uuid "81de2bd4-ec03-4b05-9244-30e2508d784c")
+		)
+		(pin "A8"
+			(uuid "dc8b5828-4c53-4d25-9955-a3e08df3829a")
+		)
+		(pin "A12"
+			(uuid "9e12ecd7-0c20-4fa8-b255-9f2156a428f6")
+		)
+		(pin "A5"
+			(uuid "e9e4b98f-2d93-4883-8292-3fad2ce46b4e")
+		)
+		(pin "A4"
+			(uuid "a8cadcac-569a-4cb9-bc48-81e08f9e4671")
+		)
+		(pin "B1"
+			(uuid "5c1ead3f-7416-49eb-81d1-a48d5e756b37")
+		)
+		(pin "B7"
+			(uuid "2cc67a61-d6b8-4db8-9cf9-ffae9f494e16")
+		)
+		(pin "A9"
+			(uuid "b24f391a-c7dc-455d-94da-e3eb3d58dfce")
+		)
+		(pin "B4"
+			(uuid "1954ee7c-c617-4cbd-b21e-d03c2b7250f9")
+		)
+		(pin "A6"
+			(uuid "2aab1e4f-0ef7-4392-8429-f6e52305589f")
+		)
+		(pin "B6"
+			(uuid "28fc0dd1-41d1-4dae-9500-83d19edebf6f")
+		)
+		(instances
+			(project ""
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 190.5 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d863db-e434-4bd1-a539-f92ab5bfd132")
+		(property "Reference" "CHpause1"
+			(at 189.23 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "765a7fc7-e6ae-4d88-a201-9b463ac86e1e")
+		)
+		(pin "2"
+			(uuid "60ede6d9-930b-4a56-9ff8-e4e771afbeb9")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHpause1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 179.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78b07deb-eca6-43ff-a29a-61c30d65e6ed")
+		(property "Reference" "CHfn14"
+			(at 177.8 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f05f2e0-5e8f-4088-8716-27caaad9b5f7")
+		)
+		(pin "2"
+			(uuid "20340c43-b74a-47cc-bd5e-7d207e4a573d")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 143.51 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ab84f7d-1771-4305-802d-9623f545e490")
+		(property "Reference" "D101"
+			(at 146.05 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 146.05 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 147.955 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "748b17a5-abed-433a-b988-657cd06abf3d")
+		)
+		(pin "1"
+			(uuid "fdc6a0eb-70f9-4283-8571-dc5d9888aae9")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 143.51 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874e9c34-c219-439c-a16f-1b58f3896522")
+		(property "Reference" "D87"
+			(at 146.05 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 146.05 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 147.955 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "638d4d99-d318-48fc-967a-f75aa059f013")
+		)
+		(pin "1"
+			(uuid "58fe4553-9c72-42de-af0f-1e9a4c5407e6")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 118.11 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c90137d-3a3c-4f99-bb94-7932df706564")
+		(property "Reference" "CHnm0"
+			(at 116.84 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d49838-59a7-40bc-add0-ce8fecaa957c")
+		)
+		(pin "2"
+			(uuid "40b99007-c401-49e9-b0c9-2fad8430342f")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 143.51 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8c9415-cf2a-421b-bf56-89d77088ce37")
+		(property "Reference" "D91"
+			(at 146.05 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 146.05 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 147.955 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c2212e4-ebe7-4801-8d10-074abdf3ed19")
+		)
+		(pin "1"
+			(uuid "023bfbc5-3220-456a-b118-d7ed0a3baded")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 152.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c33cd43-11e8-4621-9ee7-6d4e4e50e020")
+		(property "Reference" "CHnmMinus1"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cae7c84a-30aa-4c67-84b4-94737d060d57")
+		)
+		(pin "2"
+			(uuid "e96ed73b-e29b-4d16-98d7-369b177c07f5")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmMinus1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 190.5 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a41a0676-62ae-4a8f-bd0e-fd66b26bc764")
+		(property "Reference" "CHfn15"
+			(at 189.23 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3867c0ed-f0a7-4672-8aea-3d881be7e84e")
+		)
+		(pin "2"
+			(uuid "a763c4aa-f941-4daa-a226-ad36538c01cf")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-promicroish:Elite-C")
+		(at 71.12 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fa77ab-5eca-4030-8d8c-ad774a4ad481")
+		(property "Reference" "U2"
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Elite-C"
+			(at 71.12 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:Elite-C"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Symbol for an Elite-C"
+			(at 71.12 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "7d866654-58d3-4e9b-9fe2-bb22208d0106")
+		)
+		(pin "23"
+			(uuid "d2a3c17a-b7eb-47d5-a87c-289724304380")
+		)
+		(pin "1"
+			(uuid "d443b7b5-6f3c-455c-b0cf-cc0b963eeb20")
+		)
+		(pin "12"
+			(uuid "a9ea0373-0bc0-4c87-9dd6-91bda42fcfd4")
+		)
+		(pin "20"
+			(uuid "5b81be6a-803d-4f00-9b2b-32baf9b8893e")
+		)
+		(pin "7"
+			(uuid "a993a554-45d6-4019-8515-1c00dd0ca236")
+		)
+		(pin "27"
+			(uuid "0f56f428-0a4f-40c4-bacc-6e106527efd9")
+		)
+		(pin "28"
+			(uuid "6f105d8a-6bbf-414c-9d39-1784d3d28aaf")
+		)
+		(pin "29"
+			(uuid "3594169c-02d0-47bc-9120-2659cc156a3e")
+		)
+		(pin "18"
+			(uuid "23f15dd7-9197-4406-897f-b5b360b1a32f")
+		)
+		(pin "11"
+			(uuid "d15682f9-cd14-4c9a-8c31-32edea924fcd")
+		)
+		(pin "25"
+			(uuid "ba6689d8-7a39-4b36-9d13-42d968ed8775")
+		)
+		(pin "30"
+			(uuid "88f91609-be7b-423f-9128-4a5a34fa0995")
+		)
+		(pin "24"
+			(uuid "ab7de12a-439f-4281-a67e-93464b5c8253")
+		)
+		(pin "13"
+			(uuid "1d0b09f1-7cf7-40bd-bd48-a55e6d57363a")
+		)
+		(pin "26"
+			(uuid "138b0ddb-c03c-489b-a940-a59e1f5fb22d")
+		)
+		(pin "4"
+			(uuid "570bba04-afa6-4828-ba42-45596e4cc4f4")
+		)
+		(pin "3"
+			(uuid "ac294034-7090-486d-9ec9-adc84e198e22")
+		)
+		(pin "14"
+			(uuid "84ff9dea-81ab-423d-a03e-c417e40fc922")
+		)
+		(pin "16"
+			(uuid "0724041a-9c70-4f83-aed5-ce6cb7d76d4c")
+		)
+		(pin "22"
+			(uuid "6dd4c696-320b-4aa3-a841-4e008f926e4d")
+		)
+		(pin "15"
+			(uuid "fa7b2a8c-1c98-40fe-9c97-b741159f42ba")
+		)
+		(pin "17"
+			(uuid "6dc179fe-8541-4e79-a609-793445f91ba5")
+		)
+		(pin "5"
+			(uuid "dec47e2f-3c80-4ce7-b084-bf1c1cb1faf8")
+		)
+		(pin "19"
+			(uuid "ba38c9ae-e2f0-4316-9138-95bdf6fbf7f9")
+		)
+		(pin "2"
+			(uuid "e7d107d6-07e0-4e82-85b2-626d9c89c9a1")
+		)
+		(pin "10"
+			(uuid "960a8abe-e134-474d-b82d-76d10e08e40c")
+		)
+		(pin "6"
+			(uuid "7c248c1f-d347-4032-ac91-ad73792805c1")
+		)
+		(pin "8"
+			(uuid "426571cf-7bf0-4e4a-91a6-1b38bcba79b2")
+		)
+		(pin "21"
+			(uuid "2c8f8d91-6ba8-4ffe-96bd-761ad857608c")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 129.54 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afe94b5d-3237-4e34-a8fa-c31d48ed71be")
+		(property "Reference" "CHnm8"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7337bfa-9454-47f3-97ef-fc978ea73dd8")
+		)
+		(pin "2"
+			(uuid "fdf3cb3c-0218-4c2f-a814-5a0aee8522ad")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 118.11 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afea97aa-4771-4231-bfe9-bd5c03fcc009")
+		(property "Reference" "CHnm4"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a49cb7ab-c920-48f9-84b3-24159adf9543")
+		)
+		(pin "2"
+			(uuid "e38d8b74-d323-4603-a9cf-7876ee8966c6")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 132.08 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a674a2-218d-42b5-9e51-43ba1caeed38")
+		(property "Reference" "D86"
+			(at 134.62 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 134.62 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 136.525 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d2ed645-3ade-4676-9512-7d44470a4982")
+		)
+		(pin "1"
+			(uuid "9fde6cb3-784a-4592-ac24-d97a4e745423")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 193.04 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b31afa6d-fa9f-4d5d-9433-0201dadc5007")
+		(property "Reference" "D109"
+			(at 195.58 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 195.58 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 197.485 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ee5e4f5-a3e8-4900-94a0-5ff9bdd2dcf9")
+		)
+		(pin "1"
+			(uuid "fe4990b4-2592-40f0-a2dd-2190c9abaf9b")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 129.54 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31d2977-4206-4c7b-9fae-b8c04deef932")
+		(property "Reference" "CHnm2"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f830fda6-8d63-4038-98be-ca0ec853d7e9")
+		)
+		(pin "2"
+			(uuid "cc73b4c8-dccc-40b1-aaba-017fbe6213cf")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnm2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 167.64 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3e640ba-70d7-43ca-b028-517633b30a03")
+		(property "Reference" "CHprtScn1"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae21576-5206-4156-984b-4b7b9a205a78")
+		)
+		(pin "2"
+			(uuid "f206106b-9b24-46d0-908b-67da1511df4b")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHprtScn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 170.18 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be1e3d50-761b-4a08-bc9b-416944dd5675")
+		(property "Reference" "D105"
+			(at 172.72 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 172.72 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 174.625 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7ab4748-97f1-432d-8b39-295269729b8c")
+		)
+		(pin "1"
+			(uuid "b604c842-d7ce-4c69-bb2f-0df2b5a78242")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 152.4 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c62435be-1127-408b-b32e-213d0d520e1f")
+		(property "Reference" "CHnmEnter1"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 152.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8088856f-7d4f-40cb-adc8-d0348b6dda6e")
+		)
+		(pin "2"
+			(uuid "b8557e9a-bcea-4dd6-85cd-6b139e3f1ff0")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHnmEnter1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 179.07 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd91ae75-479b-4e5e-aa87-66457a4262bf")
+		(property "Reference" "CHsclLck1"
+			(at 177.8 72.39 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 179.07 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01ac00f5-e971-4ed2-ba5b-2904467bd644")
+		)
+		(pin "2"
+			(uuid "8c409bb9-90c1-431f-a961-b4efb26fb653")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHsclLck1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 154.94 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf213de0-53b4-40c1-a670-08832027e467")
+		(property "Reference" "D92"
+			(at 157.48 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 157.48 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 159.385 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78b146b8-0502-431e-ad05-64178038f7fd")
+		)
+		(pin "1"
+			(uuid "2e0ea5be-6477-4d40-81a0-f9ca8aa387ef")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 120.65 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcdd3136-9d1b-4fd2-947b-874b47ace99a")
+		(property "Reference" "D93"
+			(at 123.19 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 123.19 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 125.095 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ec1d4bb-d64b-4c06-ae2b-98e35b932f9c")
+		)
+		(pin "1"
+			(uuid "898007f2-9c2f-4121-b39e-3651426b92e8")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 170.18 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfa59018-625f-4f9c-a2c3-ffbf2361e41c")
+		(property "Reference" "D102"
+			(at 172.72 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 172.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 174.625 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04f1de03-8762-41eb-988c-2ba82577c02a")
+		)
+		(pin "1"
+			(uuid "4acc8b4e-9345-4974-b77d-f95b0a48688e")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "KS33_SW_HS_KS-2P02B01-02_39")
+		(lib_id "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 179.07 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2fb36db-6d7b-49fc-b19a-4ee6819be64a")
+		(property "Reference" "CHfn17"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Gateron_KS33_Hotswap:Gateron-KS33-Hotswap-1U"
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 179.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6252f821-5fa8-40f0-bea5-28d06b854f65")
+		)
+		(pin "2"
+			(uuid "6863e876-2b3e-43da-9a35-ae1fb4dffacb")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "CHfn17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 170.18 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52ad246-6d86-40af-a497-f243ef509dff")
+		(property "Reference" "D106"
+			(at 172.72 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 172.72 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 174.625 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a20aa752-e759-49e4-864e-19f5be7ae5bc")
+		)
+		(pin "1"
+			(uuid "df86e503-d3e4-4cd3-b33b-895ad655e3c9")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4448WS")
+		(at 143.51 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffdc34be-8b60-45d4-aebd-c92a3bdc888e")
+		(property "Reference" "D99"
+			(at 146.05 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4448WS"
+			(at 146.05 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 147.955 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/81387/1n4448ws.pdf"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Small Signal Fast switching Diode, SOD-323"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 143.51 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b90181bf-8c6e-4d04-8966-d532f9a4e3b4")
+		)
+		(pin "1"
+			(uuid "9ba4e529-9344-4cc9-af15-74623897667f")
+		)
+		(instances
+			(project "theBoerd"
+				(path "/12038623-3264-4b9a-9b7b-65819bb37bfd/4943839c-5ca2-4a46-a7c8-fa04b1795e93"
+					(reference "D99")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

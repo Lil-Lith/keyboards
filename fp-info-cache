@@ -1,4 +1,4 @@
-27347221201667380
+27348994036026615
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -109073,3 +109073,10 @@ Varistor VF
 0
 2
 2
+kicad_blackpill
+BlackPill_STLINK
+STM32F4-based development board with ST-LINK header
+stm32 arm
+0
+44
+44

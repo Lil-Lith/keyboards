@@ -10,3 +10,9 @@
 [submodule "keebio-components"]
 	path = keebio-components
 	url = https://github.com/keebio/keebio-components.git
+[submodule "kicad_blackpill"]
+	path = kicad_blackpill
+	url = https://github.com/riskable/kicad_blackpill.git
+[submodule "Kicad-STM32"]
+	path = Kicad-STM32
+	url = https://github.com/erichelgeson/Kicad-STM32.git

@@ -16,3 +16,6 @@
 [submodule "Kicad-STM32"]
 	path = Kicad-STM32
 	url = https://github.com/erichelgeson/Kicad-STM32.git
+[submodule "aesir"]
+	path = aesir
+	url = https://github.com/modern-hobbyist/aesir.git

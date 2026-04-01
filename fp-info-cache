@@ -1,4 +1,4 @@
-27348994036026615
+27361412328754719
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -73261,6 +73261,55 @@ MX-Solderable-ISO-Rotated-ReversedStabilizers
 0
 2
 2
+ModHob
+ILI9341_2.8in_Touch
+
+
+0
+22
+18
+ModHob
+KS-33_MX-Hotswap-1U
+
+
+0
+7
+2
+ModHob
+KS33_Choc-v2_HS_1.5U
+
+
+0
+7
+3
+ModHob
+KS33_Choc-v2_HS_1U
+
+
+0
+7
+3
+ModHob
+KS33_MX_HS_COMBO
+
+
+0
+12
+2
+ModHob
+KS33_MX_STAB_COMBO
+
+
+0
+0
+0
+ModHob
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

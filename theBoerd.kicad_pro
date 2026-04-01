@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.127
+        0.127,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -222,7 +223,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.3,
+          "diameter": 0.6,
           "drill": 0.3
         }
       ],
@@ -663,6 +664,10 @@
     [
       "12038623-3264-4b9a-9b7b-65819bb37bfd",
       "Root"
+    ],
+    [
+      "4b5bab44-23e7-4858-a93e-500d0913189d",
+      "NumPad"
     ]
   ],
   "text_variables": {}

@@ -18548,7 +18548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:SW_Tactile_SPST_Angled_MJTP1117"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
 			(at 27.94 120.65 0)
 			(effects
 				(font

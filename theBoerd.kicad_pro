@@ -505,7 +505,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "boerdDrills/",
       "pos_files": "",
       "specctra_dsn": "",

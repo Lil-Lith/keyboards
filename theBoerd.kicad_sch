@@ -5,6 +5,441 @@
 	(uuid "12038623-3264-4b9a-9b7b-65819bb37bfd")
 	(paper "User" 228.6 203.2)
 	(lib_symbols
+		(symbol "54-00174:54-00174"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "54-00174"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TENSILITY_54-00174"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "54-00174"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TENSILITY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "54-00174_0_0"
+				(polyline
+					(pts
+						(xy -5.715 3.175) (xy -5.08 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -1.27) (xy -5.715 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -4.445 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 3.175) (xy -4.445 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.27) (xy -5.715 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -1.905 -4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_45deg_Filled"
 			(pin_numbers
 				(hide yes)
@@ -1413,178 +1848,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "keebio:TRRS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TRRS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TRRS_0_1"
-				(rectangle
-					(start -3.81 12.7)
-					(end 5.08 12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 0)
-					(end -3.81 12.7)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 12.7)
-					(end 5.08 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 0)
-					(end -3.81 0)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TRRS_1_1"
-				(pin input line
-					(at -8.89 10.16 0)
-					(length 5.08)
-					(name "TIP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 7.62 0)
-					(length 5.08)
-					(name "RING1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 5.08 0)
-					(length 5.08)
-					(name "RING2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "SLEEVE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02"
 			(pin_numbers
 				(hide yes)
@@ -2764,6 +3027,10 @@
 	(no_connect
 		(at 34.29 173.99)
 		(uuid "33c8cad0-0614-45cc-b1cd-f49620aea8e0")
+	)
+	(no_connect
+		(at 80.01 139.7)
+		(uuid "44f2e31b-e9ed-411f-b5ac-29c6ea6e344d")
 	)
 	(no_connect
 		(at 59.69 172.72)
@@ -4041,16 +4308,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 139.7) (xy 80.01 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b81a99-d517-4ee2-92fa-b5bddb4d8626")
-	)
-	(wire
-		(pts
 			(xy 156.21 58.42) (xy 158.75 58.42)
 		)
 		(stroke
@@ -4118,6 +4375,16 @@
 			(type default)
 		)
 		(uuid "7aee0872-c71b-4010-b45a-1d8dcbbd8f34")
+	)
+	(wire
+		(pts
+			(xy 77.47 137.16) (xy 80.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c6dd0e4-e520-4d8e-90de-3842010cc44c")
 	)
 	(wire
 		(pts
@@ -6420,7 +6687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 41.91 0)
 			(effects
 				(font
@@ -6509,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 41.91 0)
 			(effects
 				(font
@@ -6598,7 +6865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 85.09 27.94 0)
 			(effects
 				(font
@@ -7095,7 +7362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 85.09 55.88 0)
 			(effects
 				(font
@@ -7184,7 +7451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 69.85 0)
 			(effects
 				(font
@@ -7273,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 69.85 0)
 			(effects
 				(font
@@ -7362,7 +7629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 55.88 0)
 			(effects
 				(font
@@ -7451,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 200.66 97.79 0)
 			(effects
 				(font
@@ -8007,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 55.88 0)
 			(effects
 				(font
@@ -8096,7 +8363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 83.82 0)
 			(effects
 				(font
@@ -8185,7 +8452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -8342,7 +8609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 69.85 0)
 			(effects
 				(font
@@ -8567,7 +8834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -8724,7 +8991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 97.79 0)
 			(effects
 				(font
@@ -8813,7 +9080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 97.79 41.91 0)
 			(effects
 				(font
@@ -8902,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 41.91 0)
 			(effects
 				(font
@@ -8991,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 97.79 27.94 0)
 			(effects
 				(font
@@ -9215,7 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 41.91 0)
 			(effects
 				(font
@@ -9371,7 +9638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 69.85 0)
 			(effects
 				(font
@@ -9460,7 +9727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 83.82 0)
 			(effects
 				(font
@@ -9617,7 +9884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 41.91 0)
 			(effects
 				(font
@@ -9842,7 +10109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 97.79 0)
 			(effects
 				(font
@@ -10067,7 +10334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -10224,7 +10491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 27.94 0)
 			(effects
 				(font
@@ -10449,7 +10716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 27.94 0)
 			(effects
 				(font
@@ -10538,7 +10805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 186.69 41.91 0)
 			(effects
 				(font
@@ -10695,7 +10962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 69.85 0)
 			(effects
 				(font
@@ -10852,7 +11119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 83.82 0)
 			(effects
 				(font
@@ -10941,7 +11208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 199.39 41.91 0)
 			(effects
 				(font
@@ -11137,7 +11404,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 77.47 139.7 0)
+		(at 77.47 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11146,7 +11413,7 @@
 		(fields_autoplaced yes)
 		(uuid "52916504-065b-41aa-8ac4-f6e2b15f1c25")
 		(property "Reference" "#PWR04"
-			(at 77.47 143.51 0)
+			(at 77.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11422,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 77.47 134.62 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11163,7 +11430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 139.7 0)
+			(at 77.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 139.7 0)
+			(at 77.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,7 +11448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 77.47 139.7 0)
+			(at 77.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11298,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -11387,7 +11654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 41.91 0)
 			(effects
 				(font
@@ -11544,7 +11811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 72.39 55.88 0)
 			(effects
 				(font
@@ -11836,7 +12103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 72.39 69.85 0)
 			(effects
 				(font
@@ -11925,7 +12192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 72.39 27.94 0)
 			(effects
 				(font
@@ -12082,7 +12349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -12239,7 +12506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 69.85 0)
 			(effects
 				(font
@@ -12396,7 +12663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 83.82 0)
 			(effects
 				(font
@@ -12485,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 199.39 27.94 0)
 			(effects
 				(font
@@ -12574,7 +12841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 27.94 0)
 			(effects
 				(font
@@ -12799,7 +13066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 41.91 0)
 			(effects
 				(font
@@ -13295,7 +13562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -13520,7 +13787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 97.79 0)
 			(effects
 				(font
@@ -13745,7 +14012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 186.69 69.85 0)
 			(effects
 				(font
@@ -13970,7 +14237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 83.82 0)
 			(effects
 				(font
@@ -14127,7 +14394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -14284,7 +14551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -14577,7 +14844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 186.69 55.88 0)
 			(effects
 				(font
@@ -14734,7 +15001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 97.79 55.88 0)
 			(effects
 				(font
@@ -14823,7 +15090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -14912,7 +15179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 85.09 41.91 0)
 			(effects
 				(font
@@ -15001,7 +15268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 27.94 0)
 			(effects
 				(font
@@ -15090,7 +15357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 72.39 83.82 0)
 			(effects
 				(font
@@ -15451,7 +15718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 186.69 27.94 0)
 			(effects
 				(font
@@ -15608,7 +15875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 27.94 0)
 			(effects
 				(font
@@ -15697,7 +15964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 27.94 0)
 			(effects
 				(font
@@ -15786,7 +16053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 97.79 83.82 0)
 			(effects
 				(font
@@ -16078,7 +16345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 27.94 0)
 			(effects
 				(font
@@ -16437,7 +16704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -16526,7 +16793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 55.88 0)
 			(effects
 				(font
@@ -16615,7 +16882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -16704,7 +16971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 27.94 0)
 			(effects
 				(font
@@ -16861,7 +17128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 69.85 0)
 			(effects
 				(font
@@ -16950,7 +17217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 199.39 83.82 0)
 			(effects
 				(font
@@ -17039,7 +17306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 55.88 0)
 			(effects
 				(font
@@ -17128,7 +17395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 97.79 0)
 			(effects
 				(font
@@ -17353,7 +17620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 59.69 83.82 0)
 			(effects
 				(font
@@ -17781,7 +18048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 199.39 55.88 0)
 			(effects
 				(font
@@ -17870,7 +18137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 199.39 69.85 0)
 			(effects
 				(font
@@ -17998,8 +18265,8 @@
 		)
 	)
 	(symbol
-		(lib_id "keebio:TRRS")
-		(at 88.9 149.86 0)
+		(lib_id "54-00174:54-00174")
+		(at 87.63 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18008,43 +18275,45 @@
 		(fields_autoplaced yes)
 		(uuid "c1eeacd4-bf43-4df9-837b-ff8c54fe3bb4")
 		(property "Reference" "U2"
-			(at 95.25 141.605 0)
+			(at 95.25 140.335 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TRRS"
-			(at 95.25 145.415 0)
+			(at 95.25 144.145 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Keebio-Parts:TRRS-PJ-320A"
-			(at 92.71 149.86 0)
+		(property "Footprint" "54_00174:TENSILITY_54-00174"
+			(at 87.63 142.24 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 149.86 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 88.9 149.86 0)
+			(at 87.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18052,10 +18321,60 @@
 				(hide yes)
 			)
 		)
+		(property "PARTREV" "A"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "54-00174"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6mm"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TENSILITY"
+			(at 87.63 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66ad6edc-b254-47a6-b7d1-65caad3057f2")
 		)
-		(pin "4"
+		(pin "4_1"
 			(uuid "95325d03-6268-46be-a885-d6c79f21f755")
 		)
 		(pin "3"
@@ -18063,6 +18382,9 @@
 		)
 		(pin "1"
 			(uuid "3e300730-6448-4b2c-9bb2-f578544713cc")
+		)
+		(pin "4_2"
+			(uuid "46453ad4-eb01-4936-9edf-4421b0161108")
 		)
 		(instances
 			(project "theBoerd"
@@ -18102,7 +18424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 41.91 0)
 			(effects
 				(font
@@ -18462,7 +18784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 72.39 41.91 0)
 			(effects
 				(font
@@ -18619,7 +18941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -18708,7 +19030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -18797,7 +19119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 97.79 0)
 			(effects
 				(font
@@ -19022,7 +19344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 83.82 0)
 			(effects
 				(font
@@ -19111,7 +19433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 173.99 55.88 0)
 			(effects
 				(font
@@ -19200,7 +19522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -19357,7 +19679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 97.79 0)
 			(effects
 				(font
@@ -19514,7 +19836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 97.79 0)
 			(effects
 				(font
@@ -19603,7 +19925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 27.94 0)
 			(effects
 				(font
@@ -19964,7 +20286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -20053,7 +20375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 46.99 55.88 0)
 			(effects
 				(font
@@ -20278,7 +20600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 21.59 97.79 0)
 			(effects
 				(font
@@ -20367,7 +20689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 85.09 69.85 0)
 			(effects
 				(font
@@ -20524,7 +20846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -20817,7 +21139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 110.49 69.85 0)
 			(effects
 				(font
@@ -21041,7 +21363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 27.94 0)
 			(effects
 				(font
@@ -21130,7 +21452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 135.89 83.82 0)
 			(effects
 				(font

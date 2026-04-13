@@ -509,7 +509,7 @@
       "plot": "boerdDrills/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "theBoerd.step",
       "svg": "",
       "vrml": ""
     },
